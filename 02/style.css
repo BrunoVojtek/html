@@ -16,3 +16,9 @@ a{
 textarea{
     resize: none;
 }
+/* header{
+    position: fixed;
+} */
+.kapitoly{
+    position: sticky;
+}

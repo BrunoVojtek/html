@@ -9,8 +9,8 @@ header{
     border: 3px solid black;
     text-transform: uppercase;
     border-radius: 20px;
-    background-image: linear-gradient(to right,red, blue);
-}
+    background-image: linear-gradient(to right,red, blue,rgb(0, 255, 140));
+}   
 .menu{
     display: flex;
     flex-direction:row;
