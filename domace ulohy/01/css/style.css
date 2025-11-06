@@ -9,7 +9,7 @@ header{
     border: 3px solid black;
     text-transform: uppercase;
     border-radius: 20px;
-    background-image: linear-gradient(to right,red, blue,rgb(0, 255, 140));
+    background-image: linear-gradient(to right,red, blue);
 }   
 .menu{
     display: flex;
@@ -34,3 +34,23 @@ header{
     color: white;
     text-decoration: none;
  }
+.main{
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+.blog {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 800px;
+    margin: 0 auto; 
+}
+
+footer{
+    text-align: center;
+}
