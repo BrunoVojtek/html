@@ -1,3 +1,4 @@
+
 /* container */
 .container{
     max-width: 1200px;
@@ -64,34 +65,60 @@ a {
     font-size: 14px;
 }
 
+
+
 .btn:hover {
     background: #9333ea;
 }
-/*          main         */
+
+    /*          main         */
+main {
+    height: 750px;
+    padding: 120px 60px 0 60px;
+    background: url("background.png") bottom center no-repeat, #a855f7;
+    background-size: cover;
+    color: #08005b;
+}
+h1 {
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
 
 .services{
+    background: rgba(255, 255, 255, 0.32);
     border: 2px solid black;
     width: 50%;
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
     box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
+    backdrop-filter: blur(10.2px)
 }
 .what{
+    background: rgba(255, 255, 255, 0.32);
     border: 2px solid black;
     border-radius: 20px;
     width: 50%;
     padding: 20px;
     margin: 20px;
     box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
+    backdrop-filter: blur(10.2px)
 }
 .why{
+    background: rgba(255, 255, 255, 0.32);
     border: 2px solid black;
     border-radius: 20px;
     width: 50%;
     padding: 20px;
     margin: 20px;
     box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
+    backdrop-filter: blur(10.2px)    
 }
 .main_content{
     display: flex;
