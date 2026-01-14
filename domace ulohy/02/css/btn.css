@@ -1,0 +1,20 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.mail_form{
+    display:flex;
+    justify-content: center;
+    padding: 40px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 210px;
+}
+#exampleInputPassword1:hover, #exampleInputEmail1:hover{
+    background-color:rgba(255, 255, 255, 0.53) ;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.657);
+    color: rgb(255, 255, 255);
+}
