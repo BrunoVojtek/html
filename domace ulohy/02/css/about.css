@@ -52,7 +52,7 @@ a {
     color: #8b5cf6;
 }
 /*          buttons         */
-.btn, .btn_2 {
+.btn{
     background: #a855f7;
     color: white;
     border-radius: 25px;
@@ -65,14 +65,9 @@ a {
     font-size: 14px;
 }
 
-.btn_2 {
-    display: inline-block;
-    padding: 12px 26px;
-    font-weight: 600;
-    border-radius: 30px;
-}
 
-.btn:hover, .btn_2:hover {
+
+.btn:hover{
     background: #9333ea;
 }
 
@@ -94,4 +89,18 @@ h1 {
 p {
     font-size: 16px;
     margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+}
+section{
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(10.2px);
+    padding: 3px;
+    margin: 10px;
+}
+.main_content{
+    padding: 3px;
+
 }
