@@ -80,7 +80,8 @@ a {
 main {
     height: 750px;
     padding: 120px 60px 0 60px;
-    background: url("background.png") bottom center no-repeat, #a855f7;
+    background:#a855f7 url("background.png") bottom center no-repeat;
+
     background-size: cover;
     color: #08005b;
 }
